@@ -8,6 +8,6 @@ echo "Out folder cleaned"
 
 cd .. 
 
-rm intird.img
+rm ramdisk.img
 
 echo "Ramdisk Cleaned"
