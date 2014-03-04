@@ -1,4 +1,4 @@
-KERNEL_Packer ANIKET PATIL
+CIVICX KERNEL PACKER
 ==========================
 
 This is suitable for packing Kitkat kernel Xperia L
