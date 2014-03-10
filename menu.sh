@@ -9,8 +9,9 @@ echo "2. Copy Stock Ramdisk to Recovery Ramdisk Structure"
 echo "3. Make Ramdisk.img"
 echo "4. Make boot"
 echo "5. Clean All Stuff"
-echo "6. Exit"
-echo -n "Please enter option [1 - 6]"
+echo "6. Pack the CWM/TWRP in xz compression"
+echo "7. Exit"
+echo -n "Please enter option [1 - 7]"
 read opt
 case $opt in
 1) echo "Compress-Ramdisk Stock with xz compression";
@@ -21,9 +22,13 @@ sh make-recovery.sh;;
 sh make-ramdisk.sh;;
 4) echo "Creating Boot.img for flashing";
 sh make-boot.sh;;
-5) echo "Cleaning the Dummy Stuff before packing new Kernel"
+5) echo "Cleaning shit before packing new Kernel"
 sh cleanall.sh;;
-6) echo "Bye Bye $USER"
+6) echo "Pack the CWM or TWRP in xz Compression"
+sh pack_recovery.sh
+sleep 2
+echo "Find the Compressed recovery in Root folder of Direcory"
+7) echo "Bye Bye $USER"
 exit 1;;
 *) echo "$opt is an invaild option. Please select option between 1-5 only";
 echo "Press [enter] key to continue. . .";
