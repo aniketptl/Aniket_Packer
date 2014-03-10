@@ -19,6 +19,16 @@ chmod u+x menu.sh
 Note : If you want to compile the Current 4.2.2 Kernel then change the
 page size of 4096
 
+Changelog:
+
+Version 1.0
+#Initial Release includes
+#Packing Stock Ramdisk
+#Packing Recovery Ramdisk 
+#Creating boot.img 
+
+Version 1.1
+#Added option for packing CWM/TWRP in XZ compression
 
 
 
