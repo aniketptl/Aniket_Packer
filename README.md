@@ -30,5 +30,7 @@ Creating boot.img
 Version 1.1
 Added option for packing CWM/TWRP in XZ compression
 
-
+Version 1.2
+Added option for flashing kernel that you packed
+Fastboot must be installed 
 
