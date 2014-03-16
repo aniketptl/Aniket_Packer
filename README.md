@@ -17,7 +17,7 @@ If you want to make it executable you can use
 chmod u+x menu.sh 
 
 Note : If you want to compile the Current 4.2.2 Kernel then change the
-page size of 4096
+page size in packscript to 4096
 
 Changelog:
 
@@ -31,6 +31,6 @@ Version 1.1
 Added option for packing CWM/TWRP in XZ compression
 
 Version 1.2
-Added option for flashing kernel that you packed
+Added option for flashing kernel that you packed,
 Fastboot must be installed 
 
