@@ -34,3 +34,6 @@ Version 1.2
 Added option for flashing kernel that you packed
 Fastboot must be installed 
 
+Version 1.3
+Fix the normal bugs , syntax error in menu and remove device specific
+path
