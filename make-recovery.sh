@@ -1,13 +1,13 @@
 #!/bin/bash
 
-RECOVERY_RAMDISK="/home/aniket/Desktop/SUPER_PACKER/RECOVERY_RAMDISK/sbin"
-
-cd $RECOVERY_RAMDISK
+cd RECOVERY_RAMDISK/sbin/
 
 rm ramdisk.cpio.xz
 
 cd ..
 
-cp ramdisk.cpio.xz $RECOVERY_RAMDISK
+cd ..
+
+cp ramdisk.cpio.xz RECOVERY_RAMDISK/sbin/
 
 echo "successfully copied
