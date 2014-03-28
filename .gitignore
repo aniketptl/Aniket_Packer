@@ -1,3 +1,4 @@
 #Empty directory
 ./Z_PACKER/kernel/*
+!.gitignore
 
