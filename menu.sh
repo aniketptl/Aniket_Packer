@@ -23,15 +23,15 @@ sh make-recovery.sh;;
 sh make-ramdisk.sh;;
 4) echo "Creating Boot.img for flashing";
 sh make-boot.sh;;
-5) echo "Cleaning shit before packing new Kernel"
+5) echo "Cleaning shit before packing new Kernel";
 sh cleanall.sh;;
-6) echo "Pack the CWM or TWRP in xz Compression"
+6) echo "Pack the CWM or TWRP in xz Compression";
 sh pack_recovery.sh
 sleep 2
-echo "Find the Compressed recovery in Root folder of Direcory"
+echo "Find the Compressed recovery in Root folder of Direcory";;
 7) echo "Flash kernel you just have packed"
 sh flash-kernel.sh
-sleep 2
+sleep 2;;
 8) echo "Bye Bye $USER"
 exit 1;;
 *) echo "$opt is an invaild option. Please select option between 1-5 only";
