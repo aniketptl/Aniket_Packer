@@ -39,6 +39,11 @@ Fix the normal bugs , syntax error in menu and remove device specific
 path
 
 Version 1.4
-Added the missing directory and changed SE-Linux to permissive 
+Added the missing directory and changed SE-Linux to permissive
+
+Version 1.5
+Added automated fastboot and adb installer for linux 
+
+ 
 
 
