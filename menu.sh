@@ -34,7 +34,7 @@ echo "Find the Compressed recovery in Root folder of Direcory";;
 sh flash-kernel.sh
 sleep 2;;
 8) echo "Install Fasboot and Adb"
-sh fastbootin.sh
+sh fastbootin.sh;;
 9) echo "Bye Bye $USER"
 exit 1;;
 *) echo "$opt is an invaild option. Please select option between 1-5 only";
