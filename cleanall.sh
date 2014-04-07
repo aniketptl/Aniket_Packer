@@ -2,8 +2,8 @@
 
 rm ramdisk.cpio.xz
 
-rm ramdisk.img 
-
+rm ramdisk.img
+ 
 cd Z_PACKER
 
 sh clean.sh
