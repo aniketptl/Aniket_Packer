@@ -44,6 +44,9 @@ Added the missing directory and changed SE-Linux to permissive
 Version 1.5
 Added automated fastboot and adb installer for linux 
 
+Version 2.0
+Added the extraction script and minor fixes
+
  
 
 

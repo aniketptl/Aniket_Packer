@@ -14,7 +14,7 @@ echo "7. Flash the kernel"
 echo "8. Install Fastboot and ADB"
 echo "9. Extract the boot.img"
 echo "10. Exit"
-echo -n "Please enter option [1 - 9]"
+echo -n "Please enter option [1 - 10]"
 read opt
 case $opt in
 1) echo "Compress-Ramdisk Stock with xz compression";
