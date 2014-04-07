@@ -24,6 +24,7 @@ echo "Extracting Ramdisk"
 cd EXTRACTED_RAMDISK
 xz -dc ../temp/boot.img-ramdisk.gz | cpio -i 
 cd ..
+rm -rf temp
 echo "Extracted zImage is in Z_IMAGE"
 echo "Extracted Ramdisk in EXTRACTED_RAMDISK" 
 else echo "boot.img not found in INPUT folder"
