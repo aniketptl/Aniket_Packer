@@ -12,7 +12,8 @@ echo "5. Clean All Stuff"
 echo "6. Pack the CWM/TWRP in xz compression"
 echo "7. Flash the kernel"
 echo "8. Install Fastboot and ADB"
-echo "9. Exit"
+echo "9. Extract the boot.img"
+echo "10. Exit"
 echo -n "Please enter option [1 - 9]"
 read opt
 case $opt in
@@ -35,7 +36,12 @@ sh flash-kernel.sh
 sleep 2;;
 8) echo "Install Fasboot and Adb"
 sh fastbootin.sh;;
-9) echo "Bye Bye $USER"
+9) echo "Extract the Boot.img"
+echo "Place the boot.img in INPUT"
+echo "If placed then hit enter"
+read ans
+sh extract.sh;;
+10) echo "Bye Bye $USER"
 exit 1;;
 *) echo "$opt is an invaild option. Please select option between 1-5 only";
 echo "Press [enter] key to continue. . .";
